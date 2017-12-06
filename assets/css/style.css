@@ -1,0 +1,43 @@
+.gifCard {
+	height: 190px;
+	width: 190px;
+	background-color: white;
+	margin: 10px;
+	float: left;
+}
+.image {
+	display: block;
+	height: 130px;
+	width: 130px;
+	margin: auto;
+}
+.food {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-right: 3px;
+}
+#header {
+	margin-bottom: 0px;
+	padding: 0;
+}
+.rating {
+	text-align: center;
+	margin-bottom: 5px;
+}
+#copyright {
+	text-align: center;
+}
+#mainContent {
+	margin-bottom: 0px;
+}
+#footer {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: absolute;
+}
+
+h4 {
+	color: white;
+}
