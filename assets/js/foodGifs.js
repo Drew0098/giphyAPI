@@ -49,7 +49,7 @@ $( document ).ready(function() {
 	}
 	function showGifs(x) {
 		var food = x.attr("data-name");
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + food + "&api_key=dc6zaTOxFJmzC&limit=12";
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + food + "&api_key=dc6zaTOxFJmzC&limit=12";
 		$.ajax({
 			url: queryURL,
 			method: "GET"
