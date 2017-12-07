@@ -1,3 +1,10 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#mainContent {
+	margin-bottom: 0;
+}
 .gifCard {
 	height: 190px;
 	width: 190px;
@@ -11,33 +18,36 @@
 	width: 130px;
 	margin: auto;
 }
+.image:hover {
+	cursor: pointer;
+}
 .food {
 	margin-top: 3px;
 	margin-bottom: 3px;
 	margin-right: 3px;
 }
-#header {
-	margin-bottom: 0px;
-	padding: 0;
-}
 .rating {
 	text-align: center;
 	margin-bottom: 5px;
 }
-#copyright {
-	text-align: center;
-}
-#mainContent {
-	margin-bottom: 0px;
+#header {
+	margin-bottom: 0;
+	background-color: white;
+	padding-bottom: 32px;
+	padding-top: 32px;
 }
 #footer {
 	background-color: black;
-	margin: 0;
 	padding: 0;
-	width: 100%;
-	position: absolute;
+	margin: 0;
+	width:100%;
+	border-width: 1px;
+	border-bottom: solid;
+	text-align: center;
 }
-
-h4 {
+#copyright {
 	color: white;
+}
+#makeGifForm {
+	clear: left;
 }
